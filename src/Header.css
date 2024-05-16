@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.header {
+  display: flex;
+  flex-direction: column; /* Adjust to column layout */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Press Start 2P'; /* Use a pixelated font for a retro look */
+}
+
+.header__logo h1 {
+  font-size: 24px;
+}
+
+.header__nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header__nav ul li:last-child {
+  margin-right: 0;
+}
+
+.header__nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header__nav ul li a:hover {
+  color: #ff0; /* Change color on hover */
+}
+
+/* Add styles for the secondary header */
+.header__subtitle {
+  margin-top: 5px; /* Add some space between the main header and the secondary header */
+  font-family: 'Press Start 2P'; /* Use Press Start 2P font */
+  font-size: 18px; /* Adjust font size */
+}

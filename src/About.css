@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.about {
+    padding: 20px;
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set text color to white */
+    font-family: 'Press Start 2P'; /* Use Press Start 2P font */
+    text-align: center; /* Center-align text */
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+  }

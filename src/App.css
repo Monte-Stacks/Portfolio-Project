@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black; /* Set the background color of the body to black */
+}
+
+.app {
+  position: relative; /* Ensure proper positioning */
+  min-height: 100vh; /* Set minimum height to cover the entire viewport */
+  background-image: url('./limbo.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; /* Center align content */
+}
+
+.content {
+  padding: 20px;
+  color: #fff; /* Set text color to white */
+}
+
+/* Remove .header styles from App.css */
+/*
+.header {
+  background-color: rgba(0, 0, 0, 0.5); / * Semi-transparent black background for the header * /
+  padding: 20px;
+  color: #fff; / * Set text color to white * /
+}
+*/
+
+.header__nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header__nav ul li:last-child {
+  margin-right: 0;
+}
+
+.header__nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header__nav ul li a:hover {
+  color: #ff0; /* Change color on hover */
+}
